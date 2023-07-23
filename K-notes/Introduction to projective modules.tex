@@ -1,0 +1,98 @@
+\documentclass{MainStyle}
+
+\usepackage{amsthm, amsfonts, amsmath, amssymb, quiver, mathrsfs, newclude, tikz-cd}
+
+% Customise href Colours.
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}       
+
+\newcommand*{\name}{Chencheng Zhang}
+\newcommand*{\id}{023071910029}
+\newcommand*{\course}{Lecture Notes for $K$-seminar}
+\newcommand*{\assignment}{Recollections from Projective Modules}
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+
+\theoremstyle{definition}
+\newtheorem{slogan}{SLOGAN}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+
+\theoremstyle{definition}
+\newtheorem{assumption}{Assumption}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\theoremstyle{remark}
+\newtheorem{lemma}{Lemma}
+\allowdisplaybreaks
+
+\begin{document}
+\maketitle
+\section{About the Lecture}
+We strongly recommend the readers to review the basic definitions and facts about
+\begin{enumerate}
+    \item groups, rings, modules, field, algebra, etc;
+    \item the definition of Abelian category $\mathcal A$;
+    \item basic knowledge on categories, such as commutative diagrams.
+\end{enumerate}
+The Lecture Note mainly discusses
+\begin{enumerate}
+    \item When free objects are defined and how free objects related to projective objects.
+    \item Equivalent definitions of projective modules (for small Abelian categories).
+    \item The chain: Free Mods $\to$ Stably Free Mods $\to$ Projective Mods $\to$ Flat Mods $\to$ Torison Free Mods.
+\end{enumerate}
+
+\section{Equivalent definitions of projective modules}
+
+\begin{definition}[The \href{https://ncatlab.org/nlab/show/adjoint+functor}{adjoint pair} of Free and Forgetful functors]
+    For category $\mathcal C$ and $\mathrm{Set}$ the category of sets, if there exists an adjoint pair $(F\dashv U)$ such that
+    \begin{itemize}
+        \item $F:\mathrm{Set}\to \mathcal C$ is the \href{https://ncatlab.org/nlab/show/free+functor}{free functor} sending the category of sets to $\mathcal C$;
+        \item $U$ is the \href{https://ncatlab.org/nlab/show/forgetful+functor}{forgetul functor} sending the collection of objects (resp., morphisms) of $\mathcal C$ to the underlying sets (resp., set mappings);
+        \item the collection $\{\varepsilon_X:FU(X)\to X\}_{X\in \mathsf{Ob}(\mathcal C)}$ is called \href{https://ncatlab.org/nlab/show/unit+of+an+adjunction}{co-unit};
+        \item $\{\eta_X:S\to UF(X)\}_{S\in\mathsf{Ob}(\mathrm{Set})}$ is called \href{https://ncatlab.org/nlab/show/unit+of+an+adjunction}{unit}.
+    \end{itemize}
+\end{definition}
+
+\begin{remark}
+    \href{https://ncatlab.org/nlab/show/Freyd-Mitchell+embedding+theorem}{Freyd-Mitchell embedding theorem} says that every small Abelian category $\mathcal A$ is a full subcategory of a category of modules over some ring $R$, such that the embedding functor $\mathcal A\hookrightarrow R\mathrm{-Mod}$ is an exact functor.
+\end{remark}
+
+\begin{slogan}
+    Small Abelian categories $Longleftarrow R\mathrm{-Mod}$ categories.
+\end{slogan}
+
+\begin{definition}[projective modules]
+    Suppose that $\mathcal A$ is an Abelian category. We say $P\in \mathcal A$ is projective, whenever
+    \begin{itemize}
+        \item for arbitrary epimorphism $X\overset \pi\twoheadrightarrow Y$ and $P\overset f\to Y$, there exists a lift $\tilde f$ such that the following diagram commutes
+              % https://q.uiver.app/#q=WzAsNCxbMSw0XSxbMSwwLCJQIl0sWzEsMSwiWSJdLFswLDEsIlgiXSxbMywyLCJcXHBpIiwyLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoiZXBpIn19fV0sWzEsMywiXFx0aWxkZSBmIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEsMiwiZiJdXQ==
+              \[\begin{tikzcd}
+                      & P \\
+                      X & Y \\
+                      \\
+                      \\
+                      & {}
+                      \arrow["\pi"', two heads, from=2-1, to=2-2]
+                      \arrow["{\tilde f}"', dashed, from=1-2, to=2-1]
+                      \arrow["f", from=1-2, to=2-2]
+                  \end{tikzcd}.\]
+    \end{itemize}
+\end{definition}
+
+\end{document}
