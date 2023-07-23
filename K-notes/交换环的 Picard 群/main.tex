@@ -1,0 +1,85 @@
+\documentclass{MainStyle}
+
+\usepackage{amsthm, amsfonts, amsmath, amssymb, quiver, mathrsfs, newclude, tikz-cd, ctex}
+
+% Customise href Colours.
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}       
+
+\newcommand*{\name}{张陈成}
+\newcommand*{\id}{023071910029}
+\newcommand*{\course}{$K$-理论笔记}
+\newcommand*{\assignment}{交换环的 Picard 群}
+
+\theoremstyle{definition}
+\newtheorem{example}{例}
+
+\theoremstyle{definition}
+\newtheorem{slogan}{原旨}
+
+\theoremstyle{definition}
+\newtheorem{definition}{定义}
+
+\theoremstyle{definition}
+\newtheorem{proposition}{命题}
+
+\theoremstyle{definition}
+\newtheorem{problem}{问题}
+
+\theoremstyle{definition}
+\newtheorem{assumption}{假定}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{定理}
+
+\theoremstyle{remark}
+\newtheorem{remark}{注}
+
+\theoremstyle{remark}
+\newtheorem{lemma}{引理}
+\allowdisplaybreaks
+
+\begin{document}
+\maketitle
+
+\section{交换环的 Picard 群}
+
+\begin{theorem}
+    给定交换环 $R$ 与连续函数 $f:\mathrm{Spec}(R)\to X$, 其中 $X$ 具备离散拓扑. 存在分解 $R\simeq \prod R_i$ 使得 $\coprod\mathrm{Spec}(R_i)\simeq \mathrm{Spec}(R)$, 且 $f|_{\mathrm{Spec}(R_i)}$ 为常映射.
+    \begin{proof}
+
+    \end{proof}
+\end{theorem}
+
+\begin{definition}[可逆模]
+    称 $M$ 是交换环 $R$ 上有限生成的模. 称 $M$ 可逆, 若以下等价命题成立.
+    \begin{enumerate}
+        \item 存在 $R$-模 $N$ 使得 $M\otimes N\simeq R$, 且 $M\simeq \mathrm{Hom}_R(N,R)$.
+        \item $M\otimes_R-$ 为 $R$-模范畴到自身的等价.
+        \item $M$ 是有限生成的秩恒为 $1$ 的投射模.
+    \end{enumerate}
+    实际上有 $\mathrm{Hom}_R(N,R)\simeq M$.
+\end{definition}
+
+\begin{definition}[Picard 群]
+    记环 $R$ 中 Picard 群为 $\mathrm{Pic}(R)$ 有限生成可逆模 $\langle M\rangle$ 构成的乘法群. 其中
+    \begin{enumerate}
+        \item $\langle M\otimes_R N\rangle=\langle M\rangle\cdot \langle  N\rangle$.
+        \item $\langle \mathrm{Hom}_R(M,R)\rangle=\langle M\rangle^{-1}$.
+        \item $\langle R\rangle$ 为乘法单位.
+    \end{enumerate}
+\end{definition}
+
+\begin{remark}
+    $\mathrm{Pic}:\mathrm{Ring}\to \mathrm{Ab}$ 为(协变)函子. 特别地,
+    \begin{align*}
+        \mathrm{Pic}:\left[R\overset f\longrightarrow S\right]\mapsto [P\mapsto S\otimes_R P].
+    \end{align*}
+\end{remark}
+
+\end{document}

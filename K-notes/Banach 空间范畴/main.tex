@@ -1,0 +1,78 @@
+\documentclass{MainStyle}
+
+\usepackage{amsthm, amsfonts, amsmath, amssymb, quiver, mathrsfs, newclude, tikz-cd, ctex}
+
+% Customise href Colours.
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}       
+
+\newcommand*{\name}{张陈成}
+\newcommand*{\id}{023071910029}
+\newcommand*{\course}{$K$-理论笔记}
+\newcommand*{\assignment}{Banach 空间范畴}
+
+\theoremstyle{definition}
+\newtheorem{example}{例}
+
+\theoremstyle{definition}
+\newtheorem{slogan}{原旨}
+
+\theoremstyle{definition}
+\newtheorem{definition}{定义}
+
+\theoremstyle{definition}
+\newtheorem{proposition}{命题}
+
+\theoremstyle{definition}
+\newtheorem{problem}{问题}
+
+\theoremstyle{definition}
+\newtheorem{assumption}{假定}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{定理}
+
+\theoremstyle{remark}
+\newtheorem{remark}{注}
+
+\theoremstyle{remark}
+\newtheorem{lemma}{引理}
+\allowdisplaybreaks
+
+\begin{document}
+\maketitle
+\section{Banach 空间的范畴化刻画}
+
+\begin{definition}[Banach 空间]
+    给定完备域 $\mathbb F$, Banach 空间即完备赋范线性空间. 以下假设 $\mathbb F$ 给定.
+\end{definition}
+
+\begin{definition}[范畴 $\mathrm{Ban}_\infty$ 与 $\mathrm{Ban}_1$]
+    定义范畴 $\mathrm{Ban}_\infty$ 与 $\mathrm{Ban}_1$ 中对象均为 Banach 空间. 其中 $\mathrm{Ban}_\infty$ 中态射为连续线性映射(范数有限); $\mathrm{Ban}_1$ 中态射为压缩线性映射(范数不超过 $1$).
+\end{definition}
+
+\begin{proposition}
+    $\mathrm{Ban}_\infty$ 为加法范畴, 但非 Abel 范畴. $\mathrm{Ban}_\infty$ 亦然.
+    \begin{proof}
+        下仅讨论 $\mathrm{Ban}_\infty$. 若 $\mathrm{Ban}_\infty$ 为 Abel 范畴, 则任意 $\mathrm{Ban}_\infty$ 中态射 $X\overset f\to Y$ 补全为正合列
+        \begin{align*}
+            0\to \mathrm{ker}(f)\to X\to Y\to \mathrm{coker}(f)\to 0.
+        \end{align*}
+        此处 $\mathrm{ker}(f)=f^{-1}\{0\}$ 为 Banach 空间 $X$ 的闭子空间, 从而为 Banach 空间; 但 $\mathrm{coker}$ 未必完备, 例如
+        \begin{align*}
+            f:\ell^1(\mathbb C)\to \ell^1(\mathbb C),\quad \{x_n\}_{n\geq 1}\mapsto \{2^{-n}\cdot x_n\}
+        \end{align*}
+        是 Banach 空间中非满的稠密态射, 从而 $\mathrm{im}(f)$ 不完备. 而 Abel 范畴中 $\mathrm{im}(f)\simeq \mathrm{ker}(\mathrm{coker}(f))$, 因此 $\mathrm{coker}(f)$ 必不为 Banach 空间.
+    \end{proof}
+\end{proposition}
+
+\begin{example}[Banach 空间间函子举例]
+
+\end{example}
+
+\end{document}
