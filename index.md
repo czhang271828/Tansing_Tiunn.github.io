@@ -3,7 +3,7 @@
 以下为讲义目录:
 
 * 代数基础系列
-  * [投射模简介(Intro to projective modules)](https://github.com/czhang271828/z/blob/main/K-notes/Introduction%20to%20projective%20modules.pdf)
+  * [投射模简介(Intro to projective modules)](https://czhang271828.github.io/z/K-notes/Intro%20to%20proj%20mod/Introduction%20to%20projective%20modules.pdf)
 * 泛函分析系列
   * 
 * 代数数论系列
