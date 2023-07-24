@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  23 JUL 2023 21:56
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  24 JUL 2023 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,29 +1151,29 @@ File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
-(Font)              size <8> substituted on input line 102.
+(Font)              size <8> substituted on input line 71.
 
 [1
 
 ] [2] [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 348.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8EF30C0450CD1D296FC09C66B4D0A0F0;115.
+(rerunfilecheck)             Checksum: 07B9D57D23101E8D0E9AA50FC4E0F86A;127.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  ) 
 Here is how much of TeX's memory you used:
  33963 strings out of 479418
  696263 string characters out of 5888105
- 1103905 words of memory out of 5000000
+ 1103939 words of memory out of 5000000
  50806 multiletter control sequences out of 15000+600000
  543907 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
