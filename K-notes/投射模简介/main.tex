@@ -46,7 +46,7 @@
 
 \begin{document}
 \maketitle
-\section{Abel 范畴的投射对象}
+\section{Abel 中投射对象的的等价定义}
 \begin{definition}[群, 环, 域, 模以及代数, Abel 范畴等]
     略.
 \end{definition}
@@ -203,6 +203,8 @@
     \end{enumerate}
 \end{remark}
 
+\section{投射对象的性质}
+
 \begin{proposition}[投射对象之收缩仍为投射对象]
     取投射对象 $P$, 若存在 $Q$, $a$, $b$ 使得 $Q\overset a\to P\overset b\to Q$ 为恒等映射, 则 $Q$ 投射.
     \begin{proof}
@@ -269,6 +271,8 @@
     \end{proof}
 \end{proposition}
 
+\section{投射对象为自由对象之直和项}
+
 \begin{definition}[自由对象]\label{module-libre}
     若存在自由-遗忘伴随 $\begin{tikzcd}
             {\mathcal C} & {\mathrm{Set}}
@@ -334,15 +338,11 @@
                 \arrow["\iota"', from=1-1, to=2-1]
                 \arrow["{\exists_!\varphi }"', from=2-1, to=1-2]
             \end{tikzcd}.\]
-        熟知群范畴之满态射与满射等价, 定理 \ref{exist-inf-proj} 表明自由群投射. 反之, 任意投射对象 $G$ 为自由群之商, 且该满同态 $FU(G)\twoheadrightarrow G$ 之右逆为 $G\hookrightarrow FG(G)$. 由于 $G$ 为自由群之子群, 从而自由.
+        熟知群范畴之满态射与满射等价, 定理 \ref{exist-inf-proj} 表明自由群投射. 反之, 任意投射对象 $G$ 为自由群之商, 且该满同态 $FU(G)\twoheadrightarrow G$ 之右逆为 $G\hookrightarrow FU(G)$. 由于 $G$ 为自由群之子群, 从而自由.
     \end{proof}
 \end{theorem}
 
 \begin{remark}
     若群 $G$ 使得一切正合列可裂, 则 $G$ 平凡.\footnote{证明思路: 若右可裂正合列可裂, 当且仅当收缩之像为中间群的正规子群, 此后不难构造具体例子.}
 \end{remark}
-
-
-
-
 \end{document}
