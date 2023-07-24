@@ -69,7 +69,7 @@
     取 Abel 范畴 $\mathcal A$ 中对象 $P$, 则以下等价命题成立时 $P$ 为投射对象.
     \begin{enumerate}
         \item $\mathrm{Hom}_{\mathcal A}(P,-)$ 右正合, 从而为正合函子\footnote{试回忆: $\mathrm{Hom}_{\mathcal A}(X,-):\mathcal A\to \mathrm{Ab}$ 对一切 $X\in \mathsf{Ob}(\mathcal A)$ 均是左正合的.};
-        \item $P$ 符合定义 \ref{module-projectif} 之表述;
+        \item $P$ 符合定义 \ref{module-projectif} 之表述(由提升性质定义);
         \item 形如 $X\to P\to 0$ 的正合列均可裂.
     \end{enumerate}
     \begin{proof}
@@ -187,7 +187,7 @@
     \end{proof}
 \end{proposition}
 
-\begin{remark}
+\begin{remark}[推出-拉回的对边法则]
     对图 $\begin{tikzcd}[sep=small]
             & \bullet \\
             \bullet && \bullet \\
