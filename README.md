@@ -1,2 +1,1 @@
-# z
-Personal website (alpha)
+[网站主页: https://czhang271828.github.io/z](https://czhang271828.github.io/z)
