@@ -47,7 +47,7 @@
 \begin{document}
 \maketitle
 
-\section{Noether 环上的投射模与平坦模}
+\section{有限展示与有限生成模}
 
 \begin{definition}[有限生成, 有限展示]
     对环 $R$-模 $X$, 有以下定义.
@@ -285,38 +285,6 @@
     显然 $\mathrm{Hom}_{S^{-1}R}(S^{-1}X,S^{-1}Y)=\mathrm{End}_{S^{-1}R}(\mathbb R[X_0^\pm])\neq 0$, 遂矛盾.
 \end{remark}
 
-\begin{definition}[秩, 纤维]
-    对 $R$-模 $X$ 给出的秩函数
-    \begin{align*}
-        \mathrm{rank}_{X}:\mathrm{Spec}(R)\to \mathbb N, \quad \mathfrak p\mapsto \dim_{R_{\mathfrak p}/\mathfrak p}\left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}.
-    \end{align*}
-    此处局部化与商模交换, 局部环 $A_{\mathfrak p}$ 具有唯一的极大理想 $\mathfrak p$, 故
-    \begin{align*}
-        \left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}\simeq (R/\mathfrak p\otimes _{\mathfrak p}X)_{\mathfrak p}\simeq \dfrac{R_{\mathfrak p}}{\mathfrak p}\otimes_{R_{\mathfrak p}} X_{\mathfrak p},
-    \end{align*}
-    称作 $X$ 在 $\mathfrak p$ 处的纤维.
-\end{definition}
-
-\begin{proposition}[Noether 环上投射模的等价定义]\label{noether-proj-freerank}
-    对 Noether 环 $R$ 上有限生成模 $X$, $X$ 投射当且仅当对任意 $\mathfrak p\in \mathrm{Spec}(R)$, $X_{\mathfrak p}$ 是自由 $R_{\mathfrak p}$-模.
-    \begin{proof}
-        注意到 $P$ 有限表示, 故局部化保持 $\mathrm{Hom}(P,-)$ 的正合性, 从而保持投射模. 记局部环 $A:=R_{\mathfrak p}$,极大理想 $\mathfrak m:=\mathfrak p_{\mathfrak p}$. 取 $M:=X_{\mathfrak p}$ 的极小有限生成集 $S=\{x_i\}_{1\leq i\leq n}$, 其在 $A\to A/\mathfrak m$ 中的项为 $\overline S=\{\overline{x_i}\}_{1\leq i\leq n}$. 记投射模的直和关系 $M\oplus N\simeq A^n\simeq \bigoplus_{1\leq i\leq n}Ax_i$. 从而
-        \begin{align*}
-            M/\mathfrak mM\simeq A^n/\mathfrak m\simeq M/\mathfrak m M\oplus N/\mathfrak mN
-        \end{align*}
-        考虑线性空间维度以及中山引理, 得 $N=0$. 故 $X_{\mathfrak p}$ 是自由 $R_\mathfrak p$-模.\par
-        相反地, 若 $\mathrm{Hom}_{R_{\mathfrak p}}(P_{\mathfrak p},(-)_{\mathfrak p})\simeq \mathrm{Hom}_R(P,-)_{\mathfrak p}$ 对任意 $\mathfrak p$ 均正合, 则只需证明正合列间关系
-        \begin{align*}
-            L_\mathfrak p\overset{f_\mathfrak p}\longrightarrow M_\mathfrak p\overset{g_\mathfrak p}\longrightarrow N_\mathfrak p \quad (\forall \mathfrak p)\quad \implies L\overset f\longrightarrow M\overset g\longrightarrow N.
-        \end{align*}
-        由于局部化保持零态射, 从而保持链复形. 记 $T:=\dfrac{\mathrm{ker}(f)}{\mathrm{im}(g)}$, 则 $T_{\mathfrak p}=0$ 对一切素理想(包括极大理想)成立, 因此 $T=0$.
-    \end{proof}
-\end{proposition}
-
-\begin{remark}
-    Kaplansky 定理表明非交换局部环上的非有限生成投射模(即可数生成投射模之直和)仍自由. 必要时补充证明.
-\end{remark}
-
 \begin{proposition}\label{fg-fp-proj-flat}
     投射模与平坦模的关系如下
     % https://q.uiver.app/#q=WzAsNCxbMSwwLCJcXHRleHR75pyJ6ZmQ55Sf5oiQ5oqV5bCE5qihfSJdLFswLDAsIlxcdGV4dHvmnInpmZDlsZXnpLrmipXlsITmqKF9Il0sWzIsMCwiXFx0ZXh0e+aciemZkOWxleekuuW5s+WdpuaooX0iXSxbMywwLCJcXHRleHR75pyJ6ZmQ55Sf5oiQ5bmz5Z2m5qihfSJdLFsxLDAsIiIsMCx7ImxldmVsIjoyLCJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJhcnJvd2hlYWQifX19XSxbMCwyLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzIsMywiIiwwLHsibGV2ZWwiOjJ9XSxbMywxLCJcXHRleHR75b2T5LiU5LuF5b2T5pivKOWPsynlroznvo7njq/kuIrnmoTlt6bmqKF9IiwwLHsiY3VydmUiOi0zLCJsZXZlbCI6Mn1dXQ==
@@ -358,6 +326,40 @@
         其中 $\varphi$ 为态射范畴之余核. 依照五引理, $\varphi$ 为同构. 由于 $-\otimes X$ 正合, 故 $(-)^\ast \otimes X\simeq \mathrm{Hom}_R(X,-)^\ast$ 正合, 从而 $X$ 投射.
     \end{proof}
 \end{proposition}
+
+\section{投射模的秩(纤维)}
+
+\begin{definition}[秩, 纤维]
+    对 $R$-模 $X$ 给出的秩函数
+    \begin{align*}
+        \mathrm{rank}_{X}:\mathrm{Spec}(R)\to \mathbb N, \quad \mathfrak p\mapsto \dim_{R_{\mathfrak p}/\mathfrak p}\left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}.
+    \end{align*}
+    此处局部化与商模交换, 局部环 $A_{\mathfrak p}$ 具有唯一的极大理想 $\mathfrak p$, 故
+    \begin{align*}
+        \left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}\simeq (R/\mathfrak p\otimes _{\mathfrak p}X)_{\mathfrak p}\simeq \dfrac{R_{\mathfrak p}}{\mathfrak p}\otimes_{R_{\mathfrak p}} X_{\mathfrak p},
+    \end{align*}
+    称作 $X$ 在 $\mathfrak p$ 处的纤维.
+\end{definition}
+
+\begin{proposition}[Noether 环上投射模的等价定义]\label{noether-proj-freerank}
+    对 Noether 环 $R$ 上有限生成模 $X$, $X$ 投射当且仅当对任意 $\mathfrak p\in \mathrm{Spec}(R)$, $X_{\mathfrak p}$ 是自由 $R_{\mathfrak p}$-模.
+    \begin{proof}
+        注意到 $P$ 有限表示, 故局部化保持 $\mathrm{Hom}(P,-)$ 的正合性, 从而保持投射模. 记局部环 $A:=R_{\mathfrak p}$,极大理想 $\mathfrak m:=\mathfrak p_{\mathfrak p}$. 取 $M:=X_{\mathfrak p}$ 的极小有限生成集 $S=\{x_i\}_{1\leq i\leq n}$, 其在 $A\to A/\mathfrak m$ 中的项为 $\overline S=\{\overline{x_i}\}_{1\leq i\leq n}$. 记投射模的直和关系 $M\oplus N\simeq A^n\simeq \bigoplus_{1\leq i\leq n}Ax_i$. 从而
+        \begin{align*}
+            M/\mathfrak mM\simeq A^n/\mathfrak m\simeq M/\mathfrak m M\oplus N/\mathfrak mN
+        \end{align*}
+        考虑线性空间维度以及中山引理, 得 $N=0$. 故 $X_{\mathfrak p}$ 是自由 $R_\mathfrak p$-模.\par
+        相反地, 若 $\mathrm{Hom}_{R_{\mathfrak p}}(P_{\mathfrak p},(-)_{\mathfrak p})\simeq \mathrm{Hom}_R(P,-)_{\mathfrak p}$ 对任意 $\mathfrak p$ 均正合, 则只需证明正合列间关系
+        \begin{align*}
+            L_\mathfrak p\overset{f_\mathfrak p}\longrightarrow M_\mathfrak p\overset{g_\mathfrak p}\longrightarrow N_\mathfrak p \quad (\forall \mathfrak p)\quad \implies L\overset f\longrightarrow M\overset g\longrightarrow N.
+        \end{align*}
+        由于局部化保持零态射, 从而保持链复形. 记 $T:=\dfrac{\mathrm{ker}(f)}{\mathrm{im}(g)}$, 则 $T_{\mathfrak p}=0$ 对一切素理想(包括极大理想)成立, 因此 $T=0$.
+    \end{proof}
+\end{proposition}
+
+\begin{remark}
+    Kaplansky 定理表明非交换局部环上的非有限生成投射模(即可数生成投射模之直和)仍自由. 必要时补充证明.
+\end{remark}
 
 \begin{proposition}
     依照命题 \ref{fg-fp-proj-flat} 与命题 \ref{noether-proj-freerank}, (左) Noether 环(右)完美.
