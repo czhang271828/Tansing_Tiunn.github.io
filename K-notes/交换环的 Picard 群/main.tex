@@ -47,17 +47,56 @@
 \begin{document}
 \maketitle
 
+\section{Zariski 拓扑简介}
+
 \section{交换环的 Picard 群}
 
-\begin{theorem}
-    给定交换环 $R$ 与连续函数 $f:\mathrm{Spec}(R)\to X$, 其中 $X$ 具备离散拓扑. 存在分解 $R\simeq \prod R_i$ 使得 $\coprod\mathrm{Spec}(R_i)\simeq \mathrm{Spec}(R)$, 且 $f|_{\mathrm{Spec}(R_i)}$ 为常映射.
-    \begin{proof}
+\begin{definition}[投射模的秩函数]
+    Kaplansky 定理表明局部环上的投射模自由, 其交换且有限生成之情形已在前文证明(中山引理之推论).\par
+    今给定交换环 $R$, 定义投射模 $P$ 的秩函数为
+    \begin{align*}
+        \mathrm{rank}_P:\mathrm{spec}(R)\to \mathbb N,\quad \mathfrak p\mapsto \mathrm{rank}_{R_{\mathfrak p}}(P_{\mathfrak p}).
+    \end{align*}
+    简而言之, $\mathrm{rank}_P(\mathfrak p)$ 是 $R$-模 $P$ 在 $\mathfrak p$-局部化下(作为自由 $R_{\mathfrak p}$-模)的秩.
+\end{definition}
 
-    \end{proof}
-\end{theorem}
+\begin{proposition}[对偶模回顾]
+    给定交换环 $R$, 定义 $X\in \mathsf{Ob}(R\mathrm{-Mod})$ 的对偶模为
+    \begin{align*}
+        X^\ast:=\mathrm{Hom}_{R\mathrm{-Mod}}(X,R)\quad \in \mathsf{Ob}(R^{\mathrm{op}}\mathrm{-Mod}).
+    \end{align*}
+    有以下关于对偶模的常用性质.
+    \begin{enumerate}
+        \item $\varepsilon: P\to P^{\ast\ast}$ 为典范单态射.
+        \item 自由模与投射模的一种等价定义如下.
+              \begin{itemize}
+                  \item $F$ 是\textbf{自由 $R$-模}, 当且仅当存在指标集 $I$ 与 $\{(x_i,f_i)\in F\times F^\ast\}_{i\in I}$ 使得有分解(有限和) $\displaystyle x=\sum _{i\in I}f_i(x)x_i$, 且有限和 $\displaystyle x=\sum _{i\in I}a_i x_i$ 对一切 $x\in F$ \textbf{唯一}.
+                  \item $P$ 是\textbf{投射 $R$-模}, 当且仅当存在指标集 $I$ 与 $\{(x_i,f_i)\in P\times P^\ast\}_{i\in I}$ 使得有分解(有限和) $\displaystyle x=\sum _{i\in I}f_i(x)x_i$, 但有限和 $\displaystyle x=\sum _{i\in I}a_i x_i$ 对 $x\in P$ \textbf{不必唯一}.
+              \end{itemize}
+        \item 有限生成投射模的对偶模同为投射 $R$-模. 具体地, 对任意 $P\oplus Q\simeq R^n$ 总有
+              \begin{align*}
+                  \mathrm{Hom}_R(P,R)\oplus \mathrm{Hom}_R(Q,R)\simeq \mathrm{Hom}_R(R^n,R)\simeq (\mathrm{End}_R(R))^n\simeq R^n.
+              \end{align*}
+              此时 $\varepsilon: P^{\ast\ast}\simeq P$ 为同构.
+    \end{enumerate}
+\end{proposition}
 
-\begin{definition}[可逆模]
-    称 $M$ 是交换环 $R$ 上有限生成的模. 称 $M$ 可逆, 若以下等价命题成立.
+\begin{definition}[$R$-模范畴的半环结构]
+    $(R\mathrm{-Mod},\oplus, \otimes)$ 为交换半环, 即,
+    \begin{enumerate}
+        \item 环中元素为 $\mathsf{Ob}(R\mathrm{-Mod})/\simeq$. 为方便记号, 今后省略商关系.
+        \item $(R\mathrm{-Mod},\oplus)$ 为交换幺半群, 其幺元为 $0$;
+        \item $(R\mathrm{-Mod}, \otimes)$ 为交换幺半群, 其幺元为 $R$;
+        \item $\oplus$ 与 $\otimes$ 分别作为加法与乘法, 满足分配律.
+    \end{enumerate}
+\end{definition}
+
+\begin{remark}
+    函子 $-\otimes M$ 给出范畴 $R\mathrm{-Mod}$ 到自身的范畴等价, 当且仅当 $M$ 是环 $(R\mathrm{-Mod},\oplus,\times)$ 的乘法可逆元. 换言之, 存在 $N$ 使得 $N\otimes M\simeq R\simeq M\otimes N$.
+\end{remark}
+
+\begin{definition}[可逆模(线丛)]
+    取交换环 $R$ 上有限生成模 $M$. 称 $M$ 可逆, 若以下等价命题成立.
     \begin{enumerate}
         \item 存在 $R$-模 $N$ 使得 $M\otimes N\simeq R$, 且 $M\simeq \mathrm{Hom}_R(N,R)$.
         \item $M\otimes_R-$ 为 $R$-模范畴到自身的等价.

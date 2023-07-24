@@ -74,7 +74,7 @@
 \begin{proposition}
     任意模为自由模之商模.
     \begin{proof}
-        直接根据命题 \ref{module-quotient}. 具体地, 取(左) $R$-模 $M$, 则
+        此前已证明, 模范畴到集合范畴的自由-遗忘伴随给出自由模到模的满态射(余单位). 具体地, 取(左) $R$-模 $M$, 则
         \begin{align*}
             M\simeq \bigoplus_{m\in M} \langle m\rangle \Big/\{R\text{ 作用给出的商关系}\}\qquad (\simeq FU(M)/\sim ).
         \end{align*}
@@ -202,14 +202,16 @@
     称 $R$ 是 Dedekind 有限的, 若单侧逆元一定是双侧逆元. 第三条表明 $GL(R)$ 是 Dedekind 有限的.
 \end{remark}
 
+\section{对偶模, 投射模的结构}
+
 \begin{definition}[对偶模]
     定义左 $R$-模 $P$ 的对偶模为左 $R^{\mathrm{op}}$-模 $P^\ast:=\mathrm{Hom}_R(P,R)$.
 \end{definition}
 
 \begin{theorem}[对偶基定理]\label{dual-basis}
-    左 $R$-模 $P$ 是投射模, 当且仅当存在指标集 $I$ 与 $\{x_i\in P\}_{i\in I}$, $\{f_i\in P^\ast\}_{i\in I}$, 使得对任意 $x\in P$ 总有限和的分解
+    左 $R$-模 $P$ 是投射模, 当且仅当存在指标集 $I$ 与 $\{(x_i,f_i)\in P\times P^\ast \}_{i\in I}$, 使得对任意 $x\in P$ 总有限和的分解\footnote{若将 $x$ 写作 $\sum_{i\in I}a_i \cdot x_i$ 之有限和形式, 则分解不必唯一; 显然, 分解唯一当且仅当 $P$ 是自由模.}
     \begin{align*}
-        \sum_{i\in I}f_i(x)\cdot x_i.
+        x=\sum_{i\in I}f_i(x)\cdot x_i.
     \end{align*}
     \begin{proof}
         若 $\{x_i\}_{i\in I}$ 与 $\{f_i\}_{i\in I}$ 既定, 今考虑满态射
@@ -249,8 +251,8 @@
     对第三条, 若 $I\simeq \bigoplus _{i\in I}Re_i$, 则 $\mathrm{Ann}_R(e_i)=(0)$, 但任意 $x\in I$ 的零化理想非零, 矛盾.
 \end{example}
 
-\begin{proposition}
+\begin{slogan}
     无限生成投射模为可数生成投射模的直和.
-\end{proposition}
+\end{slogan}
 
 \end{document}
