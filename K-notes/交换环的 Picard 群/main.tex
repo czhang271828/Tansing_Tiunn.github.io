@@ -52,8 +52,7 @@
 \section{交换环的 Picard 群}
 
 \begin{definition}[投射模的秩函数]
-    Kaplansky 定理表明局部环上的投射模自由, 其交换且有限生成之情形已在前文证明(中山引理之推论).\par
-    今给定交换环 $R$, 定义投射模 $P$ 的秩函数为
+    Kaplansky 定理表明局部环上的投射模自由, 其交换且有限生成之情形已在前文证明(中山引理之推论). 今给定交换环 $R$, 定义投射模 $P$ 的秩函数为
     \begin{align*}
         \mathrm{rank}_P:\mathrm{spec}(R)\to \mathbb N,\quad \mathfrak p\mapsto \mathrm{rank}_{R_{\mathfrak p}}(P_{\mathfrak p}).
     \end{align*}
@@ -91,19 +90,25 @@
     \end{enumerate}
 \end{definition}
 
-\begin{remark}
-    函子 $-\otimes M$ 给出范畴 $R\mathrm{-Mod}$ 到自身的范畴等价, 当且仅当 $M$ 是环 $(R\mathrm{-Mod},\oplus,\times)$ 的乘法可逆元. 换言之, 存在 $N$ 使得 $N\otimes M\simeq R\simeq M\otimes N$.
-\end{remark}
-
 \begin{definition}[可逆模(线丛)]
+    交换半环 $(R\mathrm{-Mod},\oplus, \otimes)$ 中的单位(可逆乘法元)全体为\textbf{可逆模(线丛)}.
+\end{definition}
+
+\begin{proposition}
     取交换环 $R$ 上有限生成模 $M$. 称 $M$ 可逆, 若以下等价命题成立.
     \begin{enumerate}
-        \item 存在 $R$-模 $N$ 使得 $M\otimes N\simeq R$, 且 $M\simeq \mathrm{Hom}_R(N,R)$.
-        \item $M\otimes_R-$ 为 $R$-模范畴到自身的等价.
+        \item 存在 $R$-模 $N$ 使得 $M\otimes N\simeq R$. 换言之, $M$ (所属的同构类)是环 $(R\mathrm{-Mod},\oplus,\otimes)$ 中的乘法逆元.
+        \item $M\otimes_R-$ 为 $R$-模范畴到自身的等价. 换言之, 存在 $N\otimes-$ 使得 $M\otimes N\otimes -\simeq \mathrm{id}_{R\mathrm{-Mod}}$.
         \item $M$ 是有限生成的秩恒为 $1$ 的投射模.
     \end{enumerate}
-    实际上有 $\mathrm{Hom}_R(N,R)\simeq M$.
-\end{definition}
+    若前两则成立, 则可取 $\mathrm{Hom}_R(N,R)\simeq M$.
+    \begin{proof}
+        $1\LongLeftrightarrow 2$ 是显然的. 函子 $-\otimes M$ 给出范畴 $R\mathrm{-Mod}$ 到自身的范畴等价, 当且仅当 $M$ 是环 $(R\mathrm{-Mod},\oplus,\times)$ 的乘法可逆元. 换言之, 存在 $N$ 使得 $N\otimes M\simeq R\simeq M\otimes N$.\par
+
+    \end{proof}
+\end{proposition}
+
+
 
 \begin{definition}[Picard 群]
     记环 $R$ 中 Picard 群为 $\mathrm{Pic}(R)$ 有限生成可逆模 $\langle M\rangle$ 构成的乘法群. 其中
