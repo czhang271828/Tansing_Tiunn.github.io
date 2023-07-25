@@ -28,8 +28,8 @@ $$
 $$
   $\triangle$ 下载空白模板, 将 $\TeX$ 文件替换即可. 
 
+  $\triangle$ 获取网站文件: `git clone https://github.com/czhang271828/z.git` .
+
 ***
-
-
 
 
