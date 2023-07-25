@@ -47,7 +47,48 @@
 \begin{document}
 \maketitle
 
-\section{可逆模 $=$ 线丛 $=$ 交换半环 $R\mathrm{-Mod}$ 中单位}
+
+\section{投射模的秩(纤维)}
+
+\begin{definition}[秩, 纤维]
+    对 $R$-模 $X$ 给出的秩函数
+    \begin{align*}
+        \mathrm{rank}_{X}:\mathrm{Spec}(R)\to \mathbb N, \quad \mathfrak p\mapsto \dim_{R_{\mathfrak p}/\mathfrak p}\left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}.
+    \end{align*}
+    此处局部化与商模交换, 局部环 $A_{\mathfrak p}$ 具有唯一的极大理想 $\mathfrak p$, 故
+    \begin{align*}
+        \left(\dfrac{X}{\mathfrak p X}\right)_{\mathfrak p}\simeq (R/\mathfrak p\otimes _{\mathfrak p}X)_{\mathfrak p}\simeq \dfrac{R_{\mathfrak p}}{\mathfrak p}\otimes_{R_{\mathfrak p}} X_{\mathfrak p},
+    \end{align*}
+    称作 $X$ 在 $\mathfrak p$ 处的纤维.
+\end{definition}
+
+\begin{proposition}[Noether 环上投射模的等价定义]\label{noether-proj-freerank}
+    对 Noether 环 $R$ 上有限生成模 $X$, $X$ 投射当且仅当对任意 $\mathfrak p\in \mathrm{Spec}(R)$, $X_{\mathfrak p}$ 是自由 $R_{\mathfrak p}$-模.
+    \begin{proof}
+        注意到 $P$ 有限表示, 故局部化保持 $\mathrm{Hom}(P,-)$ 的正合性, 从而保持投射模. 记局部环 $A:=R_{\mathfrak p}$,极大理想 $\mathfrak m:=\mathfrak p_{\mathfrak p}$. 取 $M:=X_{\mathfrak p}$ 的极小有限生成集 $S=\{x_i\}_{1\leq i\leq n}$, 其在 $A\to A/\mathfrak m$ 中的项为 $\overline S=\{\overline{x_i}\}_{1\leq i\leq n}$. 记投射模的直和关系 $M\oplus N\simeq A^n\simeq \bigoplus_{1\leq i\leq n}Ax_i$. 从而
+        \begin{align*}
+            M/\mathfrak mM\simeq A^n/\mathfrak m\simeq M/\mathfrak m M\oplus N/\mathfrak mN
+        \end{align*}
+        考虑线性空间维度以及中山引理, 得 $N=0$. 故 $X_{\mathfrak p}$ 是自由 $R_\mathfrak p$-模.\par
+        相反地, 若 $\mathrm{Hom}_{R_{\mathfrak p}}(P_{\mathfrak p},(-)_{\mathfrak p})\simeq \mathrm{Hom}_R(P,-)_{\mathfrak p}$ 对任意 $\mathfrak p$ 均正合, 则只需证明正合列间关系
+        \begin{align*}
+            L_\mathfrak p\overset{f_\mathfrak p}\longrightarrow M_\mathfrak p\overset{g_\mathfrak p}\longrightarrow N_\mathfrak p \quad (\forall \mathfrak p)\quad \implies L\overset f\longrightarrow M\overset g\longrightarrow N.
+        \end{align*}
+        由于局部化保持零态射, 从而保持链复形. 记 $T:=\dfrac{\mathrm{ker}(f)}{\mathrm{im}(g)}$, 则 $T_{\mathfrak p}=0$ 对一切素理想成立, 因此 $T=0$.
+    \end{proof}
+\end{proposition}
+
+\begin{remark}
+    Kaplansky 定理表明非交换局部环上的非有限生成投射模(即可数生成投射模之直和)仍自由.
+\end{remark}
+
+\begin{proposition}
+    有限展示 $R$-模 $X$ 投射, 当且仅当 $R_{\mathfrak p}$ 对一切 $\mathfrak p\in \mathrm{spec}(R)$ 投射(等价地, 自由).
+\end{proposition}
+
+\begin{proposition}
+    前已证明有限生成投射模, 有限展示投射模, 有限展示平坦模彼此等价. 对 Noether 而言, 有限生成与有限展示等价, 故 (左) Noether 环(右)完美.
+\end{proposition}
 
 \begin{definition}[有限生成投射模的秩函数]
     kaplansky 定理表明局部环上的投射模自由, 其交换且有限生成之情形已在前文证明(中山引理之推论). 今给定交换环 $R$, 定义有限生成投射模 $P$ 的秩函数为
@@ -77,6 +118,9 @@
 \begin{remark}
     由于有限生成投射模有限展示, 从而局部化与 $\mathrm{Hom}_R(P,-)$ 可交换. 类比上述证明有, $\mathrm{rank}_{\mathrm{Hom}_R(P,Q)}=\mathrm{rank}_P\cdot \mathrm{rank}_Q$.
 \end{remark}
+
+
+\section{可逆模 $=$ 线丛 $=$ 交换半环 $R\mathrm{-Mod}$ 中单位}
 
 \begin{proposition}[对偶模回顾]
     给定交换环 $R$, 定义 $X\in \mathsf{Ob}(R\mathrm{-Mod})$ 的对偶模为
