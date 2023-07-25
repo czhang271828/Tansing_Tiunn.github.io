@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  25 JUL 2023 20:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  25 JUL 2023 22:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1141,12 +1141,17 @@ Overfull \hbox (21.07874pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
+(./main.toc
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 54.
+(Font)              size <10.95> substituted on input line 2.
+
+)
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 LaTeX Font Info:    Trying to load font information for U+euf on input line 57.
-(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
+ (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [1
 
@@ -1195,12 +1200,12 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 32933 strings out of 479418
- 670407 string characters out of 5888105
- 1037298 words of memory out of 5000000
- 49774 multiletter control sequences out of 15000+600000
+ 32938 strings out of 479418
+ 670443 string characters out of 5888105
+ 1038298 words of memory out of 5000000
+ 49776 multiletter control sequences out of 15000+600000
  546361 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,16n,90p,638b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,90p,638b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (4 pages).

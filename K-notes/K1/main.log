@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  23 JUL 2023 22:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.13)  25 JUL 2023 22:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,21 +1146,25 @@ Overfull \hbox (21.07874pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
+No file main.toc.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
-LaTeX Warning: Reference `K0' on page 1 undefined on input line 53.
+
+LaTeX Warning: Reference `K0' on page 1 undefined on input line 54.
 
 [1
 
 ] [2]
 
-LaTeX Warning: Reference `PQprojsummand' on page 3 undefined on input line 200.
+LaTeX Warning: Reference `PQprojsummand' on page 3 undefined on input line 201.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DF877D7780B4D550F48BF691C9D7D775;153.
 
@@ -1171,13 +1175,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 33499 strings out of 479418
- 684580 string characters out of 5888105
- 1075255 words of memory out of 5000000
- 50353 multiletter control sequences out of 15000+600000
+ 33502 strings out of 479418
+ 684598 string characters out of 5888105
+ 1075283 words of memory out of 5000000
+ 50355 multiletter control sequences out of 15000+600000
  541517 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,28n,90p,896b,1093s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -46,7 +46,10 @@
 
 \begin{document}
 \maketitle
-\section{泛函分析拾遗, \texorpdfstring{$C^\ast$}{} 代数简介}
+\tableofcontents
+
+
+\section{Banach 代数的极大理想}
 
 \begin{definition}[Banach 代数]
     称复 Banach 空间 $(X,\|\cdot\|)$ 为 Banach 代数, 若存在 $X$ 上的乘法使得 $\|xy\|\leq \|x\|\cdot \|y\|$.
@@ -132,6 +135,8 @@
         \end{enumerate}
     \end{proof}
 \end{proposition}
+
+\section{谱理论}
 
 \begin{definition}[全纯函数]
     对开区域 $\Omega\subseteq \mathbb C$ 与 Banach 代数 $X$, 称 $f:\Omega\to X$ 是全纯的当且仅当极
@@ -368,6 +373,8 @@
     \end{proof}
 \end{proposition}
 
+\section{$C^\ast$ 代数一览}
+
 \begin{definition}[伴随, Banach$^\ast$ 代数]
     Banach 代数 $X$ 上的\textbf{伴随}为 $\mathbb R$-反自同构 $(-)^\ast:X\to X$, 满足
     \begin{align*}
@@ -439,6 +446,8 @@
 \begin{remark}
     $C^\ast$ 代数扩张不改变谱.
 \end{remark}
+
+\section{Gel'fand 对偶}
 
 \begin{definition}[Gel'fand 变换]\label{Gel'fand}
     定义极大理想空间 $\mathfrak M$ 为赋予弱-$\ast$ 拓扑的特征全体, 则 $\mathfrak M$ 是紧的. 依照命题 \ref{max-ideal} 等同极大理想与特征. 定义 Gel'fand 变换为如下线性映射
