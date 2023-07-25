@@ -74,6 +74,10 @@
     \end{proof}
 \end{proposition}
 
+\begin{remark}
+    由于有限生成投射模有限展示, 从而局部化与 $\mathrm{Hom}_R(P,-)$ 可交换. 类比上述证明有, $\mathrm{rank}_{\mathrm{Hom}_R(P,Q)}=\mathrm{rank}_P\cdot \mathrm{rank}_Q$.
+\end{remark}
+
 \begin{proposition}[对偶模回顾]
     给定交换环 $R$, 定义 $X\in \mathsf{Ob}(R\mathrm{-Mod})$ 的对偶模为
     \begin{align*}
@@ -100,6 +104,17 @@
     \begin{align*}
         P_\mathfrak p^n\simeq R_\mathfrak p^n\simeq \mathrm{Hom}_{R_\mathfrak p}(P_\mathfrak p,R_\mathfrak p)^n\simeq (P^\ast_\mathfrak p)^n\simeq (P^\ast)_\mathfrak p^n.
     \end{align*}
+\end{proposition}
+
+\begin{proposition}[秩函数运算总结]
+    对交换环 $R$ 上有限生成模, 有如下秩函数的等式(逐点相等).
+    \begin{enumerate}
+        \item $\mathrm{rank}_{R^n}$ 为 $\mathrm{spec}(R)$ 到 $\{n\}$ 的常函数.
+        \item $\mathrm{rank}_{P\oplus Q}=\mathrm{P}+\mathrm{rank}_Q$.
+        \item $\mathrm{rank}_{P\otimes Q}=\mathrm{P}\cdot \mathrm{rank}_Q$.
+        \item $\mathrm{rank}_{\mathrm{Hom}_R(P,Q)}=\mathrm{rank}(P)\cdot \mathrm{rank}(Q)$.
+        \item $\mathrm{rank}(P)=\mathrm{rank}(P^\ast)$.
+    \end{enumerate}
 \end{proposition}
 
 \begin{definition}[$R$-模范畴的半环结构]
