@@ -22,7 +22,13 @@
 |                                                              |                                                              |                                                              |          |                                   |                                                              |
 |                                                              |                                                              |                                                              |          |                                   |                                                              |
 
+
+
 ***
 
 关于 `G-doc` : 使用 Google 文档在线预览 PDF, 从而避免 Android/IOS 端无法在线查看文档. **使用时请连接互联网.** 
+
+> `G-doc` 实现: PDF 文档前加上 `https://docs.google.com/viewerng/viewer?url=` 即可. 
+
+<center><font color='red'>正在寻找 <b>断网时仍能用</b> 且 <b>速度更快</b> 的在线预览方式...</font></center>
 
