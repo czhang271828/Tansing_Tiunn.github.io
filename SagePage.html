@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SageMathCell</title>
+    <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+    <script>
+    // Make *any* div with class 'compute' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.compute',
+                           evalButtonText: '计算'});
+    </script>
+  </head>
+  <body>
+  <h1>在线 SAGE 计算</h1>
+
+<h2><a href="https://czhang271828.github.io/z">点击回到首页</a></h2>
+输入代码(或使用以下代码), 单击"计算"按钮即可完成计算. 点击计算单元右上角切换为全屏. 
+    <div class="compute"><script type="text/x-sage">
+# Lie 代数计算示例
+# 生成 E7 型复半单 Lie 代数的根系 
+RE7 = RootSystem("E7");
+# 生成 RE7 (根系)的基本空间
+LE7 = RE7.ambient_space();
+# 列出 E7 在基本空间中的单根
+LSimple = [LE7.simple_root(i) for i in range(1,7)]
+print("E7 型单根分别为:")
+for s in LSimple:
+    print(s)
+print("-------------------------------------------------")
+# 生成 Weyl 群
+W = LE7.weyl_group()
+# 计算 Wely 群中最长字长度
+w0 = W.long_element(); 
+l = w0.length()
+print("Wely 群中最长字长度为", l)
+print("-------------------------------------------------")
+# 计算 Cartan 矩阵
+ME7 = RE7.cartan_matrix();
+print("E7 型 Cartan 矩阵如下: ")
+print(ME7)
+print("-------------------------------------------------")
+# 计算 Дынкин 图
+DE7 = lie.diagram("E7");
+print("E7 型 Дынкин 图如下: ")
+print(DE7)
+</script></div>
+<p></p>
+以下是一些备用计算单元
+    <div class="compute"><script type="text/x-sage">
+# 备用单元 I
+</script></div>
+<p></p>
+    <div class="compute"><script type="text/x-sage">
+# 备用单元 II
+</script></div>
+<p></p>
+    <div class="compute"><script type="text/x-sage">
+# 备用单元 III
+</script></div>
+  </body>
+</html>

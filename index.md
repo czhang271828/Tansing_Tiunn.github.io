@@ -30,6 +30,8 @@ $$
 
   $\triangle$ 获取网站文件: `git clone https://github.com/czhang271828/z.git` .
 
-***
+### <img src="https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png" alt="sage-icon" style="zoom:20%;" /> 在线计算
 
+| [$\mathsf{SAGE}$ 官方网址](https://www.sagemath.org/) | [在线计算及示例](https://czhang271828.github.io/z/SagePage.html) | [`cocalc` 笔记本](https://cocalc.com/) |
+| :---------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------: |
 
