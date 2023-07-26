@@ -1,0 +1,94 @@
+\documentclass{MainStyle}
+
+\usepackage{amsthm, amsfonts, amsmath, amssymb, quiver, mathrsfs, newclude, tikz-cd, ctex}
+
+% Customise href Colours.
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}       
+
+\newcommand*{\name}{张陈成}
+\newcommand*{\id}{023071910029}
+\newcommand*{\course}{$K$-理论笔记}
+\newcommand*{\assignment}{外微分拾遗}
+
+\theoremstyle{definition}
+\newtheorem{example}{例}
+
+\theoremstyle{definition}
+\newtheorem{slogan}{原旨}
+
+\theoremstyle{definition}
+\newtheorem{definition}{定义}
+
+\theoremstyle{definition}
+\newtheorem{proposition}{命题}
+
+\theoremstyle{definition}
+\newtheorem{problem}{问题}
+
+\theoremstyle{definition}
+\newtheorem{assumption}{假定}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{定理}
+
+\theoremstyle{remark}
+\newtheorem{remark}{注}
+
+\theoremstyle{remark}
+\newtheorem{lemma}{引理}
+\allowdisplaybreaks
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{模的外积}
+
+\begin{definition}[对称(反对称)函数]
+    给定 $R$-模 $M$ 与 $N$. 今取定 $m\in \mathbb N_{\geq 1}$ 以及态射 $M^m\overset f\longrightarrow N$.
+    \begin{enumerate}
+        \item 称 $f$ 是对称的, 若 $f(x_1,x_2,\ldots ,x_m)=f(x_{\sigma(1)},x_{\sigma(2)},\ldots, x_{\sigma (m)})$ 对一切置换 $\sigma\in S_m$ 成立;
+        \item 称 $f$ 是反对称的, 若 $f(x_1,x_2,\ldots ,x_m)=(-1)^\sigma f(x_{\sigma(1)},x_{\sigma(2)},\ldots, x_{\sigma (m)})$ 对一切置换 $\sigma\in S_m$ 成立;
+        \item 称 $f$ 是交错的, 若 $f$ 满足以下论断: 若存在 $i\neq j$ 使得 $x_i=x_j$, 则 $f(x_1,x_2,\ldots ,x_m)=0$.
+    \end{enumerate}
+    显然, 反对称等价于``对换改变符号'', 亦等价于交错.
+\end{definition}
+
+\begin{definition}[模的外积]
+    给定反对称态射 $M^m\overset f\longrightarrow N$, 则有如下交换图
+    % https://q.uiver.app/#q=WzAsNSxbMCwxLCJNXm0iXSxbMSwxLCJcXGJpZ290aW1lcyBebU0iXSxbMiwxLCJcXGJpZ3dlZGdlXm0oTSkiXSxbMSwyLCJOIl0sWzEsMCwiXFxtYXRocm17a2VyfShcXHRpbGRlIGYpIl0sWzAsMSwiXFxwaSJdLFsxLDMsIlxcdGlsZGUgZiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDIsImoiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJlcGkifX19XSxbMiwzLCJcXG92ZXJsaW5lIGYiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMCwzLCJmIiwyXSxbNCwxXV0=
+    \[\begin{tikzcd}
+            & {\mathrm{ker}(\tilde f)} \\
+            {M^m} & {\bigotimes ^mM} & {\bigwedge^m(M)} \\
+            & N
+            \arrow["\pi", from=2-1, to=2-2]
+            \arrow["{\tilde f}"', dashed, from=2-2, to=3-2]
+            \arrow["j", two heads, from=2-2, to=2-3]
+            \arrow["{\overline f}", dashed, from=2-3, to=3-2]
+            \arrow["f"', from=2-1, to=3-2]
+            \arrow[from=1-2, to=2-2]
+        \end{tikzcd}.\]
+    \begin{enumerate}
+        \item $\pi :M^m\to \bigotimes^m M$ 由张量积之范性质保证.
+        \item 对任意反对称态射 $f\in \mathrm{Hom}_R(M^m,N)$, 总有 $\mathrm{ker}(\tilde f)\subseteq \langle x_1\otimes \cdots \otimes x_n\mid \text{存在 }i\neq j\text{ 使得 }x_i=x_j\rangle =:J$.
+    \end{enumerate}
+    从而定义外积 $\bigwedge ^m (M):=\dfrac{\bigotimes^m M}J$. 用泛性质语言描述之, 任意 $M^m$ 出发的反对称态射通过 $\bigwedge^m(M)$ 分解.
+\end{definition}
+
+\begin{example}
+    $\bigwedge^0(M)\simeq \bigotimes^0(M)\simeq R$, $\bigwedge ^1(M)\simeq \bigotimes ^1(M)\simeq M$. 记 $I:=(x,y)$ 为 $R$ 的理想, 则 $\bigwedge^2(I)$ 为主理想.
+\end{example}
+
+\begin{proposition}
+    若 $M$ 有限生成, 记其极小生成集大小为 $n$. 则 $\bigwedge^m(M)=0$ 对一切 $m>n$ 成立.
+\end{proposition}
+
+
+
+\end{document}
