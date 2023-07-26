@@ -28,7 +28,7 @@ $$
 
 ### <img src="https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png" alt="sage-icon" style="zoom:20%;" /> 在线计算
 
-| [$\mathsf{SAGE}$ 官方网址](https://www.sagemath.org/) | [在线计算及示例](https://czhang271828.github.io/z/SagePage.html) | [`cocalc` 笔记本](https://cocalc.com/) |
+| [$\mathsf{SAGE}$ 官方网址](https://www.sagemath.org/) | [在线计算及示例](https://czhang271828.github.io/z/SageMathCell.html) | [`cocalc` 笔记本](https://cocalc.com/) |
 | :---------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------: |
 
 
@@ -44,4 +44,3 @@ $$
 	<p style="font-family: Comic Sans MS">Carnivore, il chasse à 90 % des proies de moins de 200 grammes qu'il dévore en entier. Lorsqu'il attrape un animal plus gros, il se contente de la viande et des os, laissant le reste aux charognards. Il est capable de sauter de trois mètres en hauteur et de six mètres en longueur, ce qui lui permet, entre autre, de saisir un oiseau en vol.</p>
     <p style="font-family: Comic Sans MS"><a href="https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/diaporama/2144_-_Petits_felins_/-%20petits-felins11.jpg">Image sourse.</a></p>
     </details>
-
