@@ -41,6 +41,8 @@
 
 
 
+
+
 ### 分析
 
 
@@ -51,19 +53,39 @@
 
 ### 复变
 
-
-
-
-
-
+* 复变函数基础知识
+  * 上 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).md).
+  * 中 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).md).
+  * 下 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).md).
+* 常见的共形映射 [PDF](https://czhang271828.github.io/z/低年级随笔/conformal mapping.pdf), [G-doc].
+* Picard 小定理简介 [PDF](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.html), [md](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.md).
+* 模形式简介 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数观点下的模形式简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/复变函数观点下的模形式简介.html), [md].
+* 素数定理(slide) [PDF](https://czhang271828.github.io/z/低年级随笔/素数定理.pdf), [G-doc].
 
 ### 几何
 
+* De Rham 上同调简介 [PDF](https://czhang271828.github.io/z/低年级随笔/几何/De Rham 上同调简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/几何/De Rham 上同调简介.html), [md](https://czhang271828.github.io/z/低年级随笔/几何/De Rham 上同调简介.md).
+* Gauss 曲率为 $-1$ 的渐进曲线网? [PDF](Prop. Gauß 曲率为 -1 的渐近曲线网为 Чебышёв 参数网.pdf), [G-doc].
+* 常挠率曲线 [PDF](τ=c kappa.pdf), [G-doc].
+* 从Riemann曲面到Poincaré引理 [PDF](https://czhang271828.github.io/z/低年级随笔/几何/从Riemann曲面到Poincaré引理.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/几何/从Riemann曲面到Poincaré引理.html), [md](https://czhang271828.github.io/z/低年级随笔/几何/从Riemann曲面到Poincaré引理.md).
+* Riemann 曲面笔记
+  1. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(一).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(一).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(一).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(一).md).
+  2. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(二).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(二).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(二).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(二).md).
+  3. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(三).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(三).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(三).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/黎曼曲面笔记(三).md).
 
-
-
-
-
+* 微分几何笔记
+  1. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(一).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(一).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(一).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(一).md).
+  2. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(二).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(二).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(二).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(二).md).
+  3. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(三).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(三).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(三).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(四).md).
+  4. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(四).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(四).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(四).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(四).md).
+  5. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(五).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(五).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(五).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记(五).md).
+  6. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记01(空间曲线的小结论).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记01(空间曲线的小结论).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记01(空间曲线的小结论).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记01(空间曲线的小结论).md).
+  7. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记02(Gauß映射导出的曲线).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记02(Gauß映射导出的曲线).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记02(Gauß映射导出的曲线).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记02(Gauß映射导出的曲线).md).
+  8. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记05(Willmore能量简介).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记05(Willmore能量简介).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记05(Willmore能量简介).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记05(Willmore能量简介).md).
+  9. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记06(Gauß曲率的等价描述).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记06(Gauß曲率的等价描述).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记06(Gauß曲率的等价描述).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记06(Gauß曲率的等价描述).md).
+  10. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记08(Torus上的测地线).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记08(Torus上的测地线).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记08(Torus上的测地线).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记08(Torus上的测地线).md).
+  11. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记10(测地线相关).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记10(测地线相关).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记10(测地线相关).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记10(测地线相关).md).
+  12. [PDF](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记17(等温参数曲面的复形式).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记17(等温参数曲面的复形式).pdf), [html](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记17(等温参数曲面的复形式).html), [md](https://czhang271828.github.io/z/低年级随笔/几何/微分几何笔记17(等温参数曲面的复形式).md).
 
 ### 图论
 
@@ -94,7 +116,7 @@
   * 第二十期 [PDF](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十期).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十期).pdf), [html](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十期).html), [md](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十期).md).
   * 第二十一期 [PDF](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十一期).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十一期).pdf), [html](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十一期).html), [md](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二十一期).md).
 
-### 组合
+### 组合(部分链接待重置)
 
 * 能否将正方型分成奇数个三角形？[PDF](能否将正方型分成奇数个三角形？.pdf), [G-doc], [html](能否将正方型分成奇数个三角形？.html), [md](能否将正方型分成奇数个三角形？.md). 
 * ~~不知道是什么东西的~~ 语言模型 [PDF](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E7%BB%84%E5%90%88/%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B(%E4%B8%8A).pdf), [G-doc], [html](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E7%BB%84%E5%90%88/%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B(%E4%B8%8A).html), [md](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E7%BB%84%E5%90%88/%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B(%E4%B8%8A).md).
