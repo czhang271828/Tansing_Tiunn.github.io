@@ -33,19 +33,63 @@
 |                                                              |                                                              |      |            |                                   |                                                              |
 |                                                              |                                                              |      |            |                                   |                                                              |
 
-## 旧时笔记()
+## 低年级笔记(灭失约四分之一 :sweat:)
 
 ### 代数
 
+* 线性代数
+  * 直和与直积? [PDF](https://czhang271828.github.io/z/低年级随笔/代数/一组线性代数思考题.pdf), [G-doc].
+  * 张量积 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/张量积.pdf), [G-doc].
 
-
-
-
-
+* 群论
+  * 群论笔记(整合) [PDF](https://czhang271828.github.io/z/低年级随笔/代数/群论整理.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/代数/群论整理.html), [md](https://czhang271828.github.io/z/低年级随笔/代数/群论整理.md).
+  * 确定互不同构的小阶群(例子)
+    * 18/20 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/群论大作业.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/代数/群论大作业.html), [md](https://czhang271828.github.io/z/低年级随笔/代数/群论大作业.md).
+    * 105 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/Classification of groups with order 105.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/代数/Classification of groups with order 105.html), [md](https://czhang271828.github.io/z/低年级随笔/代数/Classification of groups with order 105.md). 
+  * Burnside 引理(项链计数) [PDF](https://czhang271828.github.io/z/低年级随笔/代数/分享：Brunside引理的应用.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/代数/分享：Brunside引理的应用.html), [md](https://czhang271828.github.io/z/低年级随笔/代数/分享：Brunside引理的应用.md).
+  * Wedderburn 小定理(有限整环为域) [PDF](https://czhang271828.github.io/z/低年级随笔/代数/大作业 Wedderburn 小定理之证明.pdf), [G-doc].
+  * 丛代数一瞥 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/丛代数一瞥.pdf), [G-doc]. 
+  * Hopf 代数简介 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/Brief_introduction_to_the_theory_of_Hopf_Algebra.pdf), [G-doc]. 
+  * 仿射群概型简介(slide) [PDF](https://czhang271828.github.io/z/低年级随笔/代数/Pre (7).pdf), [G-doc]. 
+* 同调代数
+  * Abel 范畴简介
+    1. [PDF](https://czhang271828.github.io/z/低年级随笔/代数/范畴论简介(1).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/代数/范畴论简介(1).pdf)
+    2. [PDF](https://czhang271828.github.io/z/低年级随笔/代数/范畴论简介(2).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/代数/范畴论简介(2).pdf)
+    3. [PDF](https://czhang271828.github.io/z/低年级随笔/代数/Basic facts in Abelian group category.pdf), [G-doc]
+  * 同调代数某课笔记 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/同调代数课堂笔记 (1).pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/代数/同调代数课堂笔记 (1).html), [md](https://czhang271828.github.io/z/低年级随笔/代数/同调代数课堂笔记 (1).md).
+  * MV 同调序列简介 [PDF](https://czhang271828.github.io/z/低年级随笔/代数/Mayer-Vietoris 同调.pdf), [G-doc]. 
 
 ### 分析
 
+* 拓扑
 
+  * 素数无限 [PDF](https://czhang271828.github.io/z/低年级随笔/Furstenberg's proof.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/Furstenberg's proof.html), [md](https://czhang271828.github.io/z/低年级随笔/Furstenberg's proof.md).
+  * Kutarowski $14$ 集合问题 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/A glimpse of Kuratowski’s 14-Set Problem.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/A glimpse of Kuratowski’s 14-Set Problem.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/A glimpse of Kuratowski’s 14-Set Problem.md). 
+  * $p$-进数简介? [PDF](https://czhang271828.github.io/z/低年级随笔/分析/Basic facts on completeness and pp-adic numbers.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/Basic facts on completeness and pp-adic numbers.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/Basic facts on completeness and pp-adic numbers.md). 
+  * 超滤子简介 [PDF](https://czhang271828.github.io/z/低年级随笔/On_the_theory_of_ultrafilters.pdf). 
+  * 积拓扑与箱拓扑辨析 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/product topology (Тихонов topology) 与 box topology 之不同之处可以类比如下.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/product topology (Тихонов topology) 与 box topology 之不同之处可以类比如下.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/product topology (Тихонов topology) 与 box topology 之不同之处可以类比如下.md). 
+
+* 动力系统(主要是 Hilbert 16 问题)
+
+  * Patchworking 方法 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/ElegantpaperTemplate.pdf), [G-doc].
+  * 
+
+* PDE
+
+  * Hahn-Banach 定理 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/Hahn-Banach 定理.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/Hahn-Banach 定理.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/Hahn-Banach 定理.md).
+
+  * 弱$^\ast$ 拓扑 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/Notes on Weak and Weak ast Topology of Banach Space.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/Notes on Weak and Weak ast Topology of Banach Space.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/Notes on Weak and Weak ast Topology of Banach Space.md). 
+
+  * Hilbert 空间 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/Hilbert空间.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/Hilbert空间.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/Hilbert空间.md).
+
+    
+
+  * 
+
+* 应用类
+
+  * Order star 简介 [PDF](https://czhang271828.github.io/z/低年级随笔/分析/A Brief Introduction to Order Stars.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/分析/A Brief Introduction to Order Stars.html), [md](https://czhang271828.github.io/z/低年级随笔/分析/A Brief Introduction to Order Stars.md).
+  * 
 
 
 
@@ -54,13 +98,13 @@
 ### 复变
 
 * 复变函数基础知识
-  * 上 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (上).md).
-  * 中 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (中).md).
-  * 下 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).html), [md](https://czhang271828.github.io/z/低年级随笔/复变函数基础知识 (下).md).
-* 常见的共形映射 [PDF](https://czhang271828.github.io/z/低年级随笔/conformal mapping.pdf), [G-doc].
-* Picard 小定理简介 [PDF](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.html), [md](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.md).
-* 模形式简介 [PDF](https://czhang271828.github.io/z/低年级随笔/复变函数观点下的模形式简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/复变函数观点下的模形式简介.html), [md].
-* 素数定理(slide) [PDF](https://czhang271828.github.io/z/低年级随笔/素数定理.pdf), [G-doc].
+  * 上 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (上).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (上).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (上).html), [md](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (上).md).
+  * 中 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (中).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (中).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (中).html), [md](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (中).md).
+  * 下 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (下).pdf) [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (下).pdf), [html](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (下).html), [md](https://czhang271828.github.io/z/低年级随笔/复变/复变函数基础知识 (下).md).
+* 常见的共形映射 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/conformal mapping.pdf), [G-doc].
+* Picard 小定理简介 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/Picard 小定理简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/复变/Picard 小定理简介.html), [md](https://czhang271828.github.io/z/低年级随笔/Picard 小定理简介.md).
+* 模形式简介 [PDF](https://czhang271828.github.io/z/低年级随笔/复变/复变函数观点下的模形式简介.pdf), [G-doc], [html](https://czhang271828.github.io/z/低年级随笔/复变函数观点下的模形式简介.html), [md].
+* 素数定理(slide) [PDF](https://czhang271828.github.io/z/低年级随笔/复变/素数定理.pdf), [G-doc].
 
 ### 几何
 
@@ -93,6 +137,7 @@
   * 图论+组合 [PDF](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%26%E7%BB%84%E5%90%88%E5%AD%A6%E8%AE%A8%E8%AE%BA%E8%AE%B2%E4%B9%89(I).pdf), [G-doc].
   * 图谱论组会讲稿 I [PDF](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E8%AE%B2%E7%A8%BF%20I.pdf), [G-doc], [html](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E8%AE%B2%E7%A8%BF%20I.html), [md](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E8%AE%B2%E7%A8%BF%20I.md).
   * 图谱论组会讲稿 II [PDF](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E7%BB%84%E4%BC%9A%E8%AE%B2%E7%A8%BF%20II.pdf), [G-doc], [html](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E7%BB%84%E4%BC%9A%E8%AE%B2%E7%A8%BF%20II.html), [md](https://czhang271828.github.io/z/%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%9A%8F%E7%AC%94/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%B0%B1%E8%AE%BA%E7%BB%84%E4%BC%9A%E8%AE%B2%E7%A8%BF%20II.md).
+
 * 图谱论导引
   * 第一期 [PDF](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第一期).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第一期).pdf), [html](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第一期).html), [md](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第一期).md).
   * 第二期 [PDF](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二期).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二期).pdf), [html](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二期).html), [md](https://czhang271828.github.io/z/低年级随笔/图论/图谱论导引(第二期).md).

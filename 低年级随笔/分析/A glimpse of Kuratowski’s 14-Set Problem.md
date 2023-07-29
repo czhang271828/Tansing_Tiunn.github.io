@@ -29,9 +29,3 @@ Let $M$ be the quotient semigroup $\left< I,i,c,k\mid \text{reduction of set ope
 ##### Further Exploration
 
 **Ex2** Let $S\in\mathcal P(\mathbb R^n)$. Let $k$, $I$ and $c$ be unary operators defined above. Let $\land$ be the binary operator defined as $\land(S_1,S_2)=S_1\cap S_2$. State a similar problem and solve it. 
-
-**Hint:** 
-
-<img src="C:\Users\czhan\Desktop\image-20220622152111931.png" alt="image-20220622152111931" style="zoom:50%;" />
-
-[:link: Website for creating commutative diagram](https://q.uiver.app/?q=WzAsMTMsWzEsMCwiayJdLFswLDEsIkkiXSxbMiwxLCJraWsiXSxbMCwyLCJJXFxsYW5kIGtpayJdLFsxLDIsImtpIl0sWzIsMiwiaWsiXSxbMCwzLCJJXFxsYW5kIGtpIl0sWzEsMywiSVxcbGFuZCBpayJdLFsyLDMsImtpXFxsYW5kIGlrIl0sWzAsNCwiSVxcbGFuZCBraVxcbGFuZCBpayJdLFsyLDQsImlraSJdLFsxLDUsIklcXGxhbmQgaWtpIl0sWzEsNiwiaSJdLFswLDFdLFswLDJdLFsxLDNdLFsyLDNdLFsyLDRdLFsyLDVdLFszLDZdLFs0LDZdLFs0LDhdLFs1LDhdLFs1LDddLFszLDddLFs2LDldLFs3LDldLFs4LDldLFs4LDEwXSxbOSwxMV0sWzEwLDExXSxbMTEsMTJdXQ==). 
