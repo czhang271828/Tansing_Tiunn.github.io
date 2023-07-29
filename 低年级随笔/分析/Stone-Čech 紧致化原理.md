@@ -148,6 +148,3 @@ $$
 一方面, $\mathscr U \cdot \mathscr U'\in [A]$. 由于右乘映射 $\overline {R_{\mathscr U'}}$ 连续, 存在邻域 $(B\in \mathscr U\in )[B]$ 使得 $\overline {R_{\mathscr U'}}(B)=B\cdot \mathscr U'\subset [B]\cdot \mathscr U\subset [A]$. 
 
 $\square$ 
-
-
-
