@@ -1,1 +1,1 @@
-REN *.md *.mdmd
+REN *.mdmd *.md
