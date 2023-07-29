@@ -22,7 +22,7 @@ $$
 $$
   $\triangle$ 下载空白模板, 将 $\TeX$ 文件替换即可. 
 
-  $\triangle$ 获取网站文件: `git clone https://github.com/czhang271828/z.git` .
+  $\triangle$ 获取网站源文件: `git clone https://github.com/czhang271828/z.git` , **约 254 MB**. 
 
   $\triangle$ **本站暂无版权协议:copyright:, 内容随意取用.** 
 
