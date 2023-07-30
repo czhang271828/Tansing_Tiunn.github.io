@@ -1,4 +1,4 @@
-![welcome](C:\Users\czhan\Documents\GitHub\z\welcome.svg)
+![welcome](https://czhang271828.github.io/z/welcome.svg)
 
 ## 快 速 导 航
 
@@ -40,5 +40,7 @@ $$
 
   $\triangle$ [`cocalc` 笔记本](https://cocalc.com/) 
 
-![welcome](C:\Users\czhan\Documents\GitHub\z\TheEnd.svg)
+
+
+![welcome](https://czhang271828.github.io/z/TheEnd.svg)
 
