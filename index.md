@@ -1,18 +1,10 @@
-
-
-
-
-
+![welcome](C:\Users\czhan\Documents\GitHub\z\welcome.svg)
 
 ## 快 速 导 航
 
-[$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)   [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)   [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)   $\boxed{\texttt{网站收藏}}$   
+| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html) |
+| :----------------------------------------------------------: |
 
-<img src="https://czhang271828.github.io/z/down.gif" alt="down" style="zoom:15%;" />
-
-<img src="https://czhang271828.github.io/z/down.gif" alt="down" style="zoom:15%;" />
-
-<img src="https://czhang271828.github.io/z/down.gif" alt="down" style="zoom:15%;" />
 
 ## 网 页 说 明
 
@@ -40,12 +32,13 @@ $$
 
   $\triangle$ **本站暂无版权协议:copyright:, 内容随意取用.** 
 
-***
+## SAGE 计 算
 
-## <img src="https://www.sagemath.org/pix/logo_sagemath+icon_oldstyle.png" alt="sage-icon" style="zoom:20%;" /> 在 线 计 算
+  $\triangle$ [官方网址 ](https://www.sagemath.org/). 计算文档之快速链接待补充.
 
-| [$\mathsf{SAGE}$ 官方网址](https://www.sagemath.org/) | [在线计算及示例](https://czhang271828.github.io/z/SageMathCell.html) | [`cocalc` 笔记本](https://cocalc.com/) |
-| :---------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------: |
+  $\triangle$ [在线计算及示例](https://czhang271828.github.io/z/SageMathCell.html) 
 
-***
+  $\triangle$ [`cocalc` 笔记本](https://cocalc.com/) 
+
+![welcome](C:\Users\czhan\Documents\GitHub\z\TheEnd.svg)
 
