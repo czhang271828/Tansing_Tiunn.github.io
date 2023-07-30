@@ -1,4 +1,4 @@
-![welcome](https://czhang271828.github.io/z/welcome.svg)
+![welcome](https://czhang271828.github.io/z/WELCOME.svg)
 
 ## 快 速 导 航
 
