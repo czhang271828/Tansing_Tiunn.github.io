@@ -2,7 +2,7 @@
 
 ## 快 速 导 航
 
-| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html) |
+| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)  [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/SageMathCell.html) |
 | :----------------------------------------------------------: |
 
 
@@ -28,17 +28,41 @@ $$
 $$
   $\triangle$ 下载空白模板, 将 $\TeX$ 文件替换即可. 
 
-  $\triangle$ 获取网站源文件: `git clone https://github.com/czhang271828/z.git` , **约 254 MB**. 
+  $\triangle$ 获取网站源文件:
+
+1. 非笔记文件(主页, 未分类文件等), **约 127 MB**. 
+
+   ```ini
+   git clone https://github.com/czhang271828/z.git
+   ```
+
+2. 低年级笔记文件, **约 223 MB**. 
+
+   ```ini
+   git clone https://github.com/czhang271828/n.git
+   ```
+
+3. $K$-理论笔记文件, **约 15 MB**. 
+
+   ```ini
+   git clone https://github.com/czhang271828/K.git
+   ```
 
   $\triangle$ **本站暂无版权协议:copyright:, 内容随意取用.** 
 
 ## SAGE 计 算
 
-  $\triangle$ [官方网址 ](https://www.sagemath.org/). 计算文档之快速链接待补充.
+  $\triangle$ [官方网址](https://www.sagemath.org/). 计算文档之快速链接待补充.
 
-  $\triangle$ [在线计算及示例](https://czhang271828.github.io/z/SageMathCell.html) 
+  $\triangle$ [在线计算及示例](https://czhang271828.github.io/z/SageMathCell.html). 在网站中内嵌 sage, 演示 $\mathsf{SAGE}$ 的计算功能. 待补充.
 
-  $\triangle$ [`cocalc` 笔记本](https://cocalc.com/) 
+  $\triangle$ [`cocalc` 笔记本](https://cocalc.com/). $\mathsf{SAGE}+\mathsf{GPT\,3.5}$, 可白嫖, 类似工作台. 
+
+## 网 站 收 藏
+
+  $\triangle$ 2023 年"致远传承" 活动讲稿 [PDF](https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [html](https://czhang271828.github.io/z/web/致远传承文字版(部分).html), [md](https://czhang271828.github.io/z/web/致远传承文字版(部分).md). 
+
+
 
 
 
