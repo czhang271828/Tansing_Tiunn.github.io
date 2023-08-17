@@ -64,6 +64,12 @@ $$
 
 
 
+## 测 试 栏
+
+测试 
+
+  $\triangle$ 测试[地址](https://czhang271828.github.io/test/text.txt). 
+
 
 
 ![welcome](https://czhang271828.github.io/z/TheEnd.svg)
