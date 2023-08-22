@@ -30,7 +30,7 @@ $$
 
   $\triangle$ 获取网站源文件:
 
-1. 非笔记文件(主页, 未分类文件等), **约 127 MB**. 
+1. 非笔记文件(主页, 未分类文件等), **约 128 MB**. 
 
    ```ini
    git clone https://github.com/czhang271828/z.git
@@ -42,10 +42,16 @@ $$
    git clone https://github.com/czhang271828/n.git
    ```
 
-3. $K$-理论笔记文件, **约 15 MB**. 
+3. $K$-理论笔记文件, **约 16 MB**. 
 
    ```ini
    git clone https://github.com/czhang271828/K.git
+   ```
+
+4. 三角范畴于导出范畴笔记, **约 6 MB**.
+
+   ```ini
+   git clone https://github.com/czhang271828/t.git
    ```
 
   $\triangle$ **本站暂无版权协议:copyright:, 内容随意取用.** 
@@ -64,13 +70,11 @@ $$
 
 
 
-## 趣 题 与 答 疑
+## 趣 题 与 答 疑 (待 整 理)
 
   $\triangle$ [此处](https://czhang271828.github.io/QnA/Ex.html)搜集了各种有趣的问题. 
 
   $\triangle$ [此处](https://czhang271828.github.io/QnA/Q.html)搜集了近几年的部分答疑记录. 
-
-
 
 
 
