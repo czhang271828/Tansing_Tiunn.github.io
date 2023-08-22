@@ -2,15 +2,15 @@
 
 ## 快 速 导 航
 
-| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)  [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/SageMathCell.html) |
+| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)  [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/#网-站-收-藏) |
 | :----------------------------------------------------------: |
 
 
 ## 网 页 说 明
 
-  $\triangle$ 本网站**暂时用作**存放 $K$-理论笔记, 以及代数数论, 泛函分析等学科之杂记. 
+  $\triangle$ 本网站**暂时用作**存放三角范畴, $K$-理论, 以及代数数论, 泛函分析等学科之杂记. 
 
-  $\triangle$ 本站正在完善中, 乏善可陈, 姑妄观之可也...
+  $\triangle$ 本站正在完善中, 乏善可陈, 姑妄观之可也.
 
   $\triangle$ 作者前端能力为 $0$, 故页面简陋无比. 
 
@@ -60,7 +60,17 @@ $$
 
 ## 网 站 收 藏
 
-  $\triangle$ 2023 年"致远传承" 活动讲稿 [PDF](https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [html](https://czhang271828.github.io/z/web/致远传承文字版(部分).html), [md](https://czhang271828.github.io/z/web/致远传承文字版(部分).md). 
+  $\triangle$ 2023 年"致远传承" 活动讲稿 [PDF](https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [G-doc](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/z/web/致远传承文字版(部分).pdf), [html](https://czhang271828.github.io/z/web/致远传承文字版(部分).html), [md](https://czhang271828.github.io/z/web/致远传承文字版(部分).md).
+
+
+
+## 趣 题 与 答 疑
+
+  $\triangle$ [此处](https://czhang271828.github.io/QnA/Ex.html)搜集了各种有趣的问题. 
+
+  $\triangle$ [此处](https://czhang271828.github.io/QnA/Q.html)搜集了近几年的部分答疑记录. 
+
+
 
 
 

@@ -1,15 +1,16 @@
 ## 快 速 导 航
 
-| [$\boxed{\text{回到首页}}$](https://czhang271828.github.io/z/)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html) |
+| [$\boxed{\text{回到首页}}$](https://czhang271828.github.io/z/)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html) [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/#网-站-收-藏) |
 | :----------------------------------------------------------: |
 
 ***
 
 ## 三角范畴与导出范畴(未开始)
 
-| 文件                                                         |                            G-doc                             | 概要 | 类别 |               状态               |                                              $\TeX$ 源码地址 |
-| ------------------------------------------------------------ | :----------------------------------------------------------: | :--- | :--: | :------------------------------: | -----------------------------------------------------------: |
-| [三角范畴简介](https://czhang271828.github.io/t/三角范畴简介/main.pdf) | [点击预览](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/t/三角范畴简介/main.pdf) |      |      | <font color = blue>编辑中</font> | [点击下载](https://czhang271828.github.io/t/三角范畴简介/main.tex) |
+| 文件                                                         |                            G-doc                             | 概要 | 类别 |               状态                |                                              $\TeX$ 源码地址 |
+| ------------------------------------------------------------ | :----------------------------------------------------------: | :--- | :--: | :-------------------------------: | -----------------------------------------------------------: |
+| [三角范畴简介](https://czhang271828.github.io/t/三角范畴简介/main.pdf) | [点击预览](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/t/三角范畴简介/main.pdf) |      |      | <font color = green>完善中</font> | [点击下载](https://czhang271828.github.io/t/三角范畴简介/main.tex) |
+| [例子: 同伦范畴](https://czhang271828.github.io/t/例子-同伦范畴/main.pdf) | [点击预览](https://docs.google.com/viewerng/viewer?url=https://czhang271828.github.io/t/例子-同伦范畴/main.pdf) |      |      | <font color = blue>编辑中</font>  | [点击下载](https://czhang271828.github.io/t/例子-同伦范畴/main.tex) |
 
 ## $K$ - 理 论 笔 记 ( 未 完 )
 
