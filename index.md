@@ -18,7 +18,7 @@
 
   $\triangle$ 点击下载空白模板: [$\TeX$ 文件](https://czhang271828.github.io/K/AA空白模板/main.tex), [logo 图片](https://czhang271828.github.io/K/AA空白模板/logo.png), [cls 文件](https://czhang271828.github.io/K/AA空白模板/MainStyle.cls). 
 
-  $\triangle$ 交换图作图可用 [$\texttt{q.uiver.app}$](https://q.uiver.app/) 以及宏包 [$\texttt{quiver.sty}$](https://raw.githubusercontent.com/varkor/quiver/master/src/quiver.sty).
+  $\triangle$ 交换图作图可用 [$\texttt{q.uiver.app}$](https://q.uiver.app/) 以及宏包 [$\texttt{quiver.sty}$](https://raw.githubusercontent.com/varkor/quiver/master/package/quiver.sty).
 
 ## 网 站 源 码 使 用
 
