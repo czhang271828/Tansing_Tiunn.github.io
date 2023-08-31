@@ -48,10 +48,16 @@ $$
    git clone https://github.com/czhang271828/K.git
    ```
 
-4. 三角范畴于导出范畴笔记, **约 6 MB**.
+4. 三角范畴与导出范畴笔记, **约 6 MB**.
 
    ```ini
    git clone https://github.com/czhang271828/t.git
+   ```
+
+5. 答疑以及有趣的问题(后者待整理), **约 28 MB**.
+
+   ```ini
+   git clone https://github.com/czhang271828/QnA.git
    ```
 
   $\triangle$ **本站暂无版权协议:copyright:, 内容随意取用.** 
