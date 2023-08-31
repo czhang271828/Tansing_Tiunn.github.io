@@ -2,7 +2,7 @@
 
 ## 快 速 导 航
 
-| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)  [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/#网-站-收-藏) |
+| [$\boxed{\text{笔记目录}}$](https://czhang271828.github.io/z/table.html)  [$\boxed{\texttt{WordPress}\text{ 主页}}$](https://czhang271828github.wordpress.com/)  [$\boxed{\mathsf{SAGE}\text{　在线}}$](https://czhang271828.github.io/z/SageMathCell.html)  [$\boxed{\text{网站收藏}}$](https://czhang271828.github.io/z/#网-站-收-藏)  [$\boxed{\text{答疑内容}}$](https://czhang271828.github.io/QnA/Q.html) |
 | :----------------------------------------------------------: |
 
 
@@ -72,7 +72,7 @@ $$
 
 ## 趣 题 与 答 疑 (待 整 理)
 
-  $\triangle$ [此处](https://czhang271828.github.io/QnA/Ex.html)搜集了各种有趣的问题. 
+  $\triangle$ [此处](https://czhang271828.github.io/QnA/Ex.html)搜集了各种有趣的问题(暂未开通). 
 
   $\triangle$ [此处](https://czhang271828.github.io/QnA/Q.html)搜集了近几年的部分答疑记录. 
 
