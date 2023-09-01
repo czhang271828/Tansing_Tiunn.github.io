@@ -54,7 +54,7 @@ $$
    git clone https://github.com/czhang271828/t.git
    ```
 
-5. 答疑以及有趣的问题(后者待整理), **约 28 MB**.
+5. 答疑以及有趣的问题(后者待整理), **约 30 MB**.
 
    ```ini
    git clone https://github.com/czhang271828/QnA.git
