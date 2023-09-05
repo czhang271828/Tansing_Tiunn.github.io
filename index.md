@@ -90,6 +90,14 @@ $$
 
   $\triangle$ 测试[地址](https://czhang271828.github.io/test/text.txt). 
 
+## 图 床
+
+  $\triangle$ 此处系图床文件(大小未知, 请谨慎下载)
+
+```ini
+git clone https://github.com/czhang271828/imgs.git
+```
+
 
 
 ![welcome](https://czhang271828.github.io/z/TheEnd.svg)
